@@ -1,8 +1,25 @@
 # vim-quicktype
-Simple quicktype wrapper for (neo)vim
+Simple [quicktype](https://github.com/quicktype/quicktype) wrapper for (neo)vim.
+
 
 
 ## Requirements
-Install quciktype to use this plugin
+Install quicktype to use this plugin
 
-```npm install -g quicktype```
+```
+npm install -g quicktype
+```
+
+
+## Usage
+QuickType can be ran on selection or on the whole file.
+
+## Example
+Select text with visual mode and run:
+```
+:QuickType <?source>
+```
+Output of quicktype will replace selection/file.
+
+The default source is `json` and the generation language is inferred from current filetype
+
