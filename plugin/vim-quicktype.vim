@@ -10,7 +10,6 @@ function! s:QuickType(...) range
     	let cmd = add(cmd, '-s ' . a:1)
     endif
 
-    echo &filetype
     if index(s:typed_langs, &filetype) >= 0
     let cmd = add(cmd, '--just-types')
     endif
