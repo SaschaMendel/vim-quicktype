@@ -2,7 +2,6 @@
 Simple [quicktype](https://github.com/quicktype/quicktype) wrapper for (neo)vim.
 
 
-
 ## Requirements
 Install quicktype to use this plugin
 
@@ -10,6 +9,14 @@ Install quicktype to use this plugin
 npm install -g quicktype
 ```
 
+
+## Installation
+
+### vim-plug
+Add to plugin list:
+```
+ Plug 'SaschaMendel/vim-quicktype'
+```
 
 ## Usage
 QuickType can be ran on selection or on the whole file.
